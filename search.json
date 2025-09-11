@@ -4,7 +4,12 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Xingyuan Zhao’s website for EPPS 6356 Data Visualization"
+    "text": "Xingyuan Zhao’s website for EPPS 6356 Data Visualization",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About"
+    ]
   },
   {
     "objectID": "about.html#course-overview",
@@ -143,6 +148,11 @@
     "href": "index.html",
     "title": "EPPS 6356: Data Visualization",
     "section": "",
-    "text": "The website for EPPS 6356: Data Visualization."
+    "text": "The website for EPPS 6356: Data Visualization.",
+    "crumbs": [
+      "Home",
+      "Getting Started",
+      "EPPS 6356: Data Visualization"
+    ]
   }
 ]
