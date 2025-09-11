@@ -1,0 +1,148 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Xingyuan Zhao’s website for EPPS 6356 Data Visualization"
+  },
+  {
+    "objectID": "about.html#course-overview",
+    "href": "about.html#course-overview",
+    "title": "About This Course",
+    "section": "",
+    "text": "Welcome to EPPS 6356 - Data Analysis, a comprehensive course designed to equip students with modern data analysis skills using cutting-edge tools and technologies.",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "about.html#learning-objectives",
+    "href": "about.html#learning-objectives",
+    "title": "About This Course",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this course, you will be able to:\n\nAnalyze Data: Apply statistical methods to real-world datasets\nVisualize Information: Create compelling data visualizations\nBuild Reports: Generate reproducible research documents\nCollaborate Effectively: Use version control and modern development workflows",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "about.html#course-structure",
+    "href": "about.html#course-structure",
+    "title": "About This Course",
+    "section": "Course Structure",
+    "text": "Course Structure\n\nModule 1: Foundations\n\nIntroduction to Quarto\nR programming basics\nData manipulation with tidyverse\n\n\n\nModule 2: Visualization\n\nggplot2 fundamentals\nInteractive visualizations with plotly\nDashboard creation\n\n\n\nModule 3: Statistical Analysis\n\nDescriptive statistics\nHypothesis testing\nRegression analysis\n\n\n\nModule 4: Advanced Topics\n\nMachine learning basics\nWeb scraping\nAPI integration",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "about.html#tools-technologies",
+    "href": "about.html#tools-technologies",
+    "title": "About This Course",
+    "section": "Tools & Technologies",
+    "text": "Tools & Technologies\n\n\n\nCore Tools\n\nQuarto: Document generation\nR/RStudio: Statistical computing\nGit/GitHub: Version control\nVS Code/Cursor: Modern IDEs\n\n\n\n\nR Packages\n\ntidyverse: Data manipulation\nggplot2: Visualization\nshiny: Interactive apps\nknitr: Report generation",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "about.html#assessment",
+    "href": "about.html#assessment",
+    "title": "About This Course",
+    "section": "Assessment",
+    "text": "Assessment\n\n\n\nComponent\nWeight\nDescription\n\n\n\n\nAssignments\n40%\nWeekly data analysis tasks\n\n\nProjects\n30%\nTwo major projects\n\n\nParticipation\n10%\nClass engagement\n\n\nFinal Exam\n20%\nComprehensive assessment",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "about.html#resources",
+    "href": "about.html#resources",
+    "title": "About This Course",
+    "section": "Resources",
+    "text": "Resources\n\n\n\n\n\n\nRecommended Reading\n\n\n\n\nR for Data Science by Hadley Wickham\nQuarto Documentation\nggplot2: Elegant Graphics for Data Analysis",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "about.html#example-loading-and-exploring-data",
+    "href": "about.html#example-loading-and-exploring-data",
+    "title": "About This Course",
+    "section": "Example: Loading and Exploring Data",
+    "text": "Example: Loading and Exploring Data\nLet’s look at a simple example using the course dataset:\n\n\nCode\n# Load required libraries\nlibrary(tidyverse)\nlibrary(DT)\n\n# Check if file exists and load it\nif (file.exists(\"tophat_grade.csv\")) {\n  grades &lt;- read_csv(\"tophat_grade.csv\", show_col_types = FALSE)\n  \n  # Display first few rows\n  datatable(head(grades, 10), \n            options = list(pageLength = 5, \n                          scrollX = TRUE),\n            caption = \"Sample of TopHat Grades Data\")\n} else {\n  cat(\"Data file not found. Using example data instead.\\n\")\n  \n  # Create example data\n  example_data &lt;- data.frame(\n    Student_ID = paste0(\"S\", 1001:1010),\n    Score = round(rnorm(10, mean = 85, sd = 10), 1),\n    Grade = sample(c(\"A\", \"B\", \"C\"), 10, replace = TRUE, prob = c(0.4, 0.4, 0.2))\n  )\n  \n  datatable(example_data, \n            options = list(pageLength = 5),\n            caption = \"Example Student Data\")\n}",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "about.html#getting-help",
+    "href": "about.html#getting-help",
+    "title": "About This Course",
+    "section": "Getting Help",
+    "text": "Getting Help\n\nOffice Hours: Tuesday & Thursday, 2-4 PM\nEmail: instructor@university.edu\nCourse Forum: Available on the course website\n\n\nLast updated: 2025-09-03",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "About This Course"
+    ]
+  },
+  {
+    "objectID": "hello.html",
+    "href": "hello.html",
+    "title": "Hello Quarto",
+    "section": "",
+    "text": "This is a minimal Quarto document with an R code chunk.\n\n\nShow code\nprint(\"Hello from R in Quarto!\")\n\n\n[1] \"Hello from R in Quarto!\"\n\n\nShow code\nprint(\"Hello from R in Quarto!\")\n\n\n[1] \"Hello from R in Quarto!\"",
+    "crumbs": [
+      "Home",
+      "Getting Started",
+      "Hello Quarto"
+    ]
+  },
+  {
+    "objectID": "hello.html#hello",
+    "href": "hello.html#hello",
+    "title": "Hello Quarto",
+    "section": "",
+    "text": "This is a minimal Quarto document with an R code chunk.\n\n\nShow code\nprint(\"Hello from R in Quarto!\")\n\n\n[1] \"Hello from R in Quarto!\"\n\n\nShow code\nprint(\"Hello from R in Quarto!\")\n\n\n[1] \"Hello from R in Quarto!\"",
+    "crumbs": [
+      "Home",
+      "Getting Started",
+      "Hello Quarto"
+    ]
+  },
+  {
+    "objectID": "hello.html#a-simple-plot",
+    "href": "hello.html#a-simple-plot",
+    "title": "Hello Quarto",
+    "section": "A simple plot",
+    "text": "A simple plot\n\n\nShow code\nplot(cars)\n\n\n\n\n\nA simple scatter plot",
+    "crumbs": [
+      "Home",
+      "Getting Started",
+      "Hello Quarto"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EPPS 6356: Data Visualization",
+    "section": "",
+    "text": "The website for EPPS 6356: Data Visualization."
+  }
+]
